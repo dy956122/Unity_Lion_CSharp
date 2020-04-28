@@ -2,8 +2,16 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Class2_Operator
+    - Practice1_OperatorMethod
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -18,7 +26,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Text
   sceneClasses:
-    "Assets/\u7B2C2\u7AE0_\u6578\u5B78\u3001\u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u5B50.unity":
+    "Assets/\u7B2C\u4E8C\u7AE0_\u6578\u5B78\u3001\u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u5B50.unity":
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -32,6 +40,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -55,6 +65,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12744}
     - Class: 114
       Script: {instanceID: 12934}
+    - Class: 114
+      Script: {instanceID: 37424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -70,6 +82,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -510,7 +524,25 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aed2b8aa5ac7989d7f8abe42b4e1d06f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Person
+  - hash:
+      serializedVersion: 2
+      Hash: 9d7c90c1cb1eaa15403c878ba7edcb04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Class3_Method
+  - hash:
+      serializedVersion: 2
+      Hash: 68f0aae3a76f5a60fcf652a13cc8bf83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Practice1_OperatorMethod
   platform: 20
   scenePathNames:
-  - "Assets/\u7B2C2\u7AE0_\u6578\u5B78\u3001\u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u5B50.unity"
+  - "Assets/\u7B2C\u4E8C\u7AE0_\u6578\u5B78\u3001\u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u5B50.unity"
   playerPath: C:/Users/409-01/Desktop/LIN/Unity_Lion_CSharp/Released_ToWebGL_Test
