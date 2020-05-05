@@ -8,10 +8,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -64,11 +62,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11152}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11308}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11348}
+    - Class: 114
+      Script: {instanceID: 11644}
+    - Class: 114
+      Script: {instanceID: 11674}
     - Class: 114
       Script: {instanceID: 11734}
     - Class: 114
@@ -77,10 +79,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12584}
     - Class: 114
       Script: {instanceID: 12932}
-    - Class: 114
-      Script: {instanceID: 18594}
-    - Class: 114
-      Script: {instanceID: 18606}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,10 +252,22 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 8db9aeba90cc46a1bd3da603a3307cf2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Slime
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 9c62a6c7d0c89ad97784af75d50200cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bat
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -522,18 +532,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 9c62a6c7d0c89ad97784af75d50200cf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Bat
-  - hash:
-      serializedVersion: 2
-      Hash: 8db9aeba90cc46a1bd3da603a3307cf2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Slime
   platform: 20
   scenePathNames:
   - "Assets/\u7DF4\u7FD2\u5834\u666F.unity"
