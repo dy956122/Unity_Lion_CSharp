@@ -1,0 +1,16 @@
+{
+"companyName": "LinChungWen",
+"productName": "LinChungWen_第七章練習",
+"productVersion": "0.1",
+"dataUrl": "Class7_HouseDestoryer_Web.data.unityweb",
+"wasmCodeUrl": "Class7_HouseDestoryer_Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "Class7_HouseDestoryer_Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.3f1"
+}

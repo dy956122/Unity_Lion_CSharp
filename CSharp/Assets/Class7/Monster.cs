@@ -25,12 +25,17 @@ public class Monster : MonoBehaviour
     /// <summary>
     /// 爆炸效果
     /// </summary>
-    private void Explosion()
+    protected void Explosion()
     {
         // 生成爆炸效果
         GameObject exp = Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject); // 刪除怪物
         Destroy(exp, 2.5f);  // 2.5 秒後刪除爆炸效果
+    }
+
+    private void Awake()
+    {
+        Physics2D.IgnoreLayerCollision(8, 8); // 物理2D 忽略圖層碰撞(圖層1，圖層2)
     }
 
     protected virtual void Update()
@@ -42,6 +47,7 @@ public class Monster : MonoBehaviour
     {
         if (collision.gameObject.name == "房子")
         {
+            collision.gameObject.GetComponent<House>().Damage(damage);
             Explosion();
         }
     }
