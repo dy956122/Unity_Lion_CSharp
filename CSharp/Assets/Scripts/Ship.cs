@@ -9,7 +9,7 @@ public class Ship : MonoBehaviour
 
     // 私人欄位：僅限於此類別存取
     // 從其他類別無法取得或存放資料
-    private float weight = 50f;
+    // private float weight = 50f;
 
     // 問題：
     // 假設需要取得但是不能修改 - 屬性 (權限) -－> 不想被外部修改的資料
